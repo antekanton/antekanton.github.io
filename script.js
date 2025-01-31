@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
             fetch("https://api.ipify.org?format=json")
                 .then(response => response.json())
                 .then(data => {
-                    ipText.innerText = `Ваш IP: ${data.ip}`;
+                    ipText.innerText = `Твой IP: ${data.ip}`;
                 })
                 .catch(error => {
                     ipText.innerText = "Не удалось получить IP";
