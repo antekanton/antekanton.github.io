@@ -3,7 +3,7 @@ title: Примеры отправки сообщений в телеграм и
 date: 2025-02-01 17:16:16 +/-TTTT
 categories: [Bash]
 tags: [bash, linux, telegram]
-excerpt: "Это вступление, которое будет в отрывке."
+render_with_liquid: false
 ---
 
 ### Отправка текста
