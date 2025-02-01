@@ -226,4 +226,4 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-excerpt_separator: "<!--excerpt-->"
+max_length: "10"
