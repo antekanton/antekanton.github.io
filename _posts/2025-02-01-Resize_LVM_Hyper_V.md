@@ -22,3 +22,4 @@ Command (m for help): w
 # pvresize /dev/sda3
 # lvextend /dev/ubuntu-vg/ubuntu-lv -l +100%FREE
 # resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv
+```
