@@ -3,9 +3,8 @@ title: Настройка репликации Master/Slave Postgrespro-1C-13 н
 date: 2025-02-01 16:16:16 +/-TTTT
 categories: [Linux]
 tags: [linux, postgres, 1C]
+excerpt_separator: ""
 ---
-
-<!--more-->
 
 ### Master node
     $ sudo -u postgres psql

@@ -2,10 +2,9 @@
 title: Проверка версии байткода зависимостей при сборке maven
 date: 2025-02-01 18:16:16 +/-TTTT
 categories: [Java]
-tags: [Java, Maven]
+tags: [java, maven]
+excerpt_separator: ""
 ---
-
-<!--more-->
 
 Настройка плагина maven-enforcer-plugin
 
