@@ -5,6 +5,8 @@ categories: [Linux]
 tags: [linux, lvm, hyper-v]
 ---
 
+<!--more-->
+
 ### После ресайза vhd/vdhx на Hyper-V требуется увеличить раздел LVM на Linux ВМ
 
 #### Пример

@@ -5,6 +5,8 @@ categories: [Bash]
 tags: [bash, linux, telegram]
 ---
 
+<!--more-->
+
 ### Отправка текста
 #### Скрипт sendText2Tg.sh
 

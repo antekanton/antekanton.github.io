@@ -5,6 +5,8 @@ categories: [Java]
 tags: [Java, Maven]
 ---
 
+<!--more-->
+
 Настройка плагина maven-enforcer-plugin
 
 ```xml

@@ -5,6 +5,8 @@ categories: [Linux]
 tags: [linux, postgres, 1C]
 ---
 
+<!--more-->
+
 ### Master node
     $ sudo -u postgres psql
     postgres=# CREATE USER replication WITH REPLICATION ENCRYPTED PASSWORD 'пароль';

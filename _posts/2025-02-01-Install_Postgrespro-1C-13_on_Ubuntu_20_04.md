@@ -5,6 +5,8 @@ categories: [Linux]
 tags: [linux, postgres, 1C]
 ---
 
+<!--more-->
+
 ### Master node
     $ sudo -i
     # dpkg-reconfigure locales
