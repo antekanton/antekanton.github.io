@@ -3,9 +3,8 @@ title: Установка Postgrespro-1C-13 на Ubuntu 20.04
 date: 2025-02-01 16:16:16 +/-TTTT
 categories: [Linux]
 tags: [linux, postgres, 1C]
-excerpt_separator: ""
 ---
-
+<!--excerpt-->
 ### Master node
     $ sudo -i
     # dpkg-reconfigure locales

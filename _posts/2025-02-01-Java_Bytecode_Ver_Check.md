@@ -3,9 +3,8 @@ title: Проверка версии байткода зависимостей �
 date: 2025-02-01 18:16:16 +/-TTTT
 categories: [Java]
 tags: [java, maven]
-excerpt_separator: ""
 ---
-
+<!--excerpt-->
 Настройка плагина maven-enforcer-plugin
 
 ```xml

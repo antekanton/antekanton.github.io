@@ -3,9 +3,8 @@ title: Увеличение размера LVM раздела Linux ВМ на Hy
 date: 2025-02-01 16:16:16 +/-TTTT
 categories: [Linux]
 tags: [linux, lvm, hyper-v]
-excerpt_separator: ""
 ---
-
+<!--excerpt-->
 ### После ресайза vhd/vdhx на Hyper-V требуется увеличить раздел LVM на Linux ВМ
 
 #### Пример
