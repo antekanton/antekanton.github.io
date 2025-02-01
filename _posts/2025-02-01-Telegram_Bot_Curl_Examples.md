@@ -19,6 +19,7 @@ tags: [bash, linux, telegram]
     -H 'Content-Type: application/json' \
     -d "{\"chat_id\": \"$CHATID\", \"text\": \"$MESSAGE\", \"disable_notification\": true}" \
     https://api.telegram.org/bot$TOKEN/sendMessage
+
 #### Пример использования
     ./sendText2Tg.sh telegram_chat_id "text"
 
@@ -35,6 +36,7 @@ tags: [bash, linux, telegram]
 
     curl -s -F document=@"$FILE" \
     https://api.telegram.org/bot$TOKEN/sendDocument?chat_id=$CHATID
+
 #### Пример использования
     ./sendFile2Tg.sh telegram_chat_id file_name
 
@@ -53,5 +55,6 @@ tags: [bash, linux, telegram]
     -d chat_id="$CHATID" \
     -d text="$message" \
     -d parse_mode="MarkdownV2"
+
 #### Пример использования
     ./sendJson2Tg.sh telegram_chat_id json_file_name
