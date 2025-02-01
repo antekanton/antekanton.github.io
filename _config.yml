@@ -98,7 +98,8 @@ theme_mode: dark
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://knife.media/wp-content/uploads/2018/04/vk-dog-1.jpg"
+# avatar: "https://knife.media/wp-content/uploads/2018/04/vk-dog-1.jpg"
+avatar: "https://www.themebeta.com/files/picture/201903/28/d7d0c0c872e2cd63acb3dbb1e7128059.jpeg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
