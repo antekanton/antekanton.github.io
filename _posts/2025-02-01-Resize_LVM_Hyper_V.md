@@ -1,7 +1,7 @@
 ---
 title: Увеличение размера LVM раздела Linux ВМ на Hyper-V
 date: 2025-02-01 16:16:16 +/-TTTT
-categories: [Linux, Windows, Hyper-V]
+categories: [Linux]
 tags: [linux, lvm, hyper-v]
 ---
 
