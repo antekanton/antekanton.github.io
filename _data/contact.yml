@@ -3,10 +3,6 @@
 - type: github
   icon: "fab fa-github"
 
-- type: Telegram
-  icon: "fab fa-telegram"
-  link: "https://t.me/ant3k"
-
 #- type: twitter
 #  icon: "fa-brands fa-x-twitter"
 #
