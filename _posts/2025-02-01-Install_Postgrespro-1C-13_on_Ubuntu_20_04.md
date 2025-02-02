@@ -4,7 +4,10 @@ date: 2025-02-01 16:16:16 +/-TTTT
 categories: [Linux]
 tags: [linux, postgres, 1C]
 ---
-<!--excerpt-->
+
+Заметка на тему установки базы данных PostgreSQL оптимизированной под работу 1С. 
+Рассматривается установка на ОС Ubuntu 20.04 с обычным механизмом репликации.
+
 ### Master node
     $ sudo -i
     # dpkg-reconfigure locales
