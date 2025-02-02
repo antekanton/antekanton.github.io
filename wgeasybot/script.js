@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const tg = window.Telegram.WebApp;
   const user = tg.initDataUnsafe?.user;
   if (user) {
-    telegramIdText.innerHTML = `<p><strong>Твой Telegram ID:</strong> ${user.id}</p>`;
+    telegramIdText.innerHTML = `<ul><li><strong>Твой Telegram ID:</strong> ${user.id}</li></ul>`;
   }
 
   // Получение информации о пользователе через ipwho.is
