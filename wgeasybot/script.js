@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const infoText = document.getElementById("infoText");
   const ipText = document.getElementById("ipText");
   const telegramIdText = document.getElementById("telegramIdText");
+
+  infoText.innerHTML = `<h3>Информация о тебе</h3>`
 
   // Получение информации о Telegram пользователе
   const tg = window.Telegram.WebApp;
@@ -14,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(response => response.json())
     .then(data => {
       ipText.innerHTML = `
-                <h3>Информация о тебе</h3>
                 <ul>
                     <li><strong>IP-адрес:</strong> ${data.ip}</li>
                     <li><strong>Страна:</strong> ${data.country} (${data.country_code})</li>
