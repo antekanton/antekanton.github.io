@@ -1,6 +1,6 @@
 ---
 title: Примеры отправки сообщений в телеграм используя curl
-date: 2025-02-01 17:16:16 +/-TTTT
+date: 2025-02-01 17:16:16 +0700
 categories: [Bash]
 tags: [bash, linux, telegram]
 ---

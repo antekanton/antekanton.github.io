@@ -1,6 +1,6 @@
 ---
 title: Установка WireGuard с GUI на Ubuntu с помощью Docker
-date: 2025-02-01 17:16:16 +/-TTTT
+date: 2025-02-03 00:10:16 +0700
 categories: [Linux]
 tags: [bash, linux, docker, wireguard]
 ---
