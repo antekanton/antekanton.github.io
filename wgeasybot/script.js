@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Получение информации о пользователе через ipwho.is
-  fetch('http://ipwho.is/')
+  fetch('https://ipwho.is/')
     .then(response => response.json())
     .then(data => {
       ipText.innerHTML = `
