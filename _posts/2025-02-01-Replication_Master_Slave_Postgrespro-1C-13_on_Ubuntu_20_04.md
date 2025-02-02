@@ -4,7 +4,10 @@ date: 2025-02-01 16:16:16 +0700
 categories: [Linux]
 tags: [linux, postgres, 1C]
 ---
-<!--excerpt-->
+
+Заметка про настройку репликации для БД PostgreSQL. 
+Актуально для версий начиная с 10.
+
 ### Master node
     $ sudo -u postgres psql
     postgres=# CREATE USER replication WITH REPLICATION ENCRYPTED PASSWORD 'пароль';

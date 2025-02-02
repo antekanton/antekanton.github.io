@@ -4,8 +4,12 @@ date: 2025-02-01 18:16:16 +0700
 categories: [Java]
 tags: [java, maven]
 ---
-<!--excerpt-->
-Настройка плагина maven-enforcer-plugin
+
+Заметка о наболевшем в Java. 
+В случае использования в проектах технологии JSP нужно либо выполнять компиляцию JSP страниц на этапе сборки проекта или проверять плагинов версии всех зависимостей. 
+Иначе велик риск получить падающие страницы в проде из-за высокой версии байткода зависимостей, которые не может прожевать старая версия JVM.
+
+### Настройка плагина maven-enforcer-plugin для подобной проверки
 
 ```xml
 <plugin>
@@ -24,7 +28,7 @@ tags: [java, maven]
 						<maxJdkVersion>1.8</maxJdkVersion>
 					</enforceBytecodeVersion>
 				</rules>
-				<fail>true</fail> # Падать при наличии зависимостей с версией байткода выше значения из maxJdkVersion
+				<fail>true</fail>
 			</configuration>
 		</execution>
 	</executions>
@@ -37,3 +41,5 @@ tags: [java, maven]
 	</dependencies>
 </plugin>
 ```
+- maxJdkVersion - максимальная версия байткода, которую поддерживает JVM проекта
+- fail - падать при превышении версий
