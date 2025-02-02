@@ -54,10 +54,4 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error('Ошибка при получении данных о погоде:', error);
             weatherText.textContent = "Не удалось получить данные о погоде.";
         });
-
-  <!-- Start 1C Fitness JS Code Insert after jQuery. DO NOT CHANGE! -->
-  <script src="https://reservi.ru/widget-fit1c.v2/js/config.js" data-fit-salon-id="81b1d726-a492-468f-90d9-1a0b4d3c4547"></script>
-  <!-- Start 1C Fitness BLOCK Code Insert in place for schedule. DO NOT CHANGE! -->
-  <div data-fit1c-calendar>Расписание работает на <a href="https://www.fitness1c.ru">1С:Фитнес клуб</a></div>
-  <!-- End 1C Fitness BLOCK Code do not change! -->
 });
