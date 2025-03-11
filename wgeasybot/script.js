@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const tg = window.Telegram.WebApp;
   const user = tg.initDataUnsafe?.user;
   if (user) {
-    telegramIdText.innerHTML = `<ul><li><strong>Твой Telegram ID:</strong> ${user.id}</li></ul>`;
+    telegramIdText.innerHTML = `<ul><li><strong>Telegram ID:</strong> ${user.id}</li></ul>`;
   }
 
   // Получение информации о пользователе через ipwho.is
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Добавление кнопки для доната через Telegram Stars
   tg.ready();
-  tg.MainButton.setText("Поддержать звездами 🌟").show();
+  tg.MainButton.setText("Дать 🌟 на еду").show();
 
   tg.MainButton.onClick(() => {
     tg.pay({
