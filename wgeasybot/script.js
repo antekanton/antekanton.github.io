@@ -33,4 +33,20 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error('Ошибка при получении данных:', error);
       ipText.innerHTML = "<p style='color: red;'>Не удалось получить данные.</p>";
     });
+
+  // Добавление кнопки для доната через Telegram Stars
+  tg.ready();
+  tg.MainButton.setText("Поддержать звездами 🌟").show();
+
+  tg.MainButton.onClick(() => {
+    tg.pay({
+      slug: "donation", // Укажите ваш товар или slug в Telegram Pay
+      success: (response) => {
+        tg.sendData(JSON.stringify({ payment: response })); // Отправка данных боту
+      },
+      fail: (error) => {
+        alert("Ошибка платежа: " + error);
+      }
+    });
+  });
 });
