@@ -1,7 +1,7 @@
 ---
 title: Разворачиваем Kubernetes (k3s) кластер с ArgoCD
 date: 2025-05-14 17:10:16 +0700
-categories: [Linux]
+categories: [DevOps]
 tags: [devops, linux, k3s, argocd]
 ---
 
