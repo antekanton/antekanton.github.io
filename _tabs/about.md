@@ -27,4 +27,8 @@ order: 4
 - Сервер NUC 11BTMi7
 - Роутер Mikrotik hAP ax2
 
-
+### Софт
+- Виртуализация Hyper-V
+- Кластер Kubernetes k3s
+- ArgoCD
+- Gitlab-CE
